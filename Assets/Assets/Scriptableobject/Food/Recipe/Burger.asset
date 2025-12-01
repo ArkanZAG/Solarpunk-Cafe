@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
   m_Name: Burger
   m_EditorClassIdentifier: Assembly-CSharp::FoodRecipe.Recipe
-  requirementsList: []
+  requirementsList:
+  - requirementSpecificType: 1
+    requirementGeneralType: 0
+    quantity: 1
+  - requirementSpecificType: 0
+    requirementGeneralType: 6
+    quantity: 1

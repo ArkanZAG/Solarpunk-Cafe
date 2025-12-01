@@ -23,6 +23,7 @@ namespace FoodRecipe
             AnySugar,
             AnyFiber,
             AnyCarbs,
+            AnyFlour,
         }
     }
 }
