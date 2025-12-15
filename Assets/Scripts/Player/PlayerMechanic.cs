@@ -1,22 +1,30 @@
-using Ingredient;
-using FoodRecipe;
+using System;
+using Food_Related.FoodRecipe;
+using InventorySystem;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Player
 {
     public class PlayerMechanic : MonoBehaviour
     {
-        [SerializeField] private Inventory.Inventory playerInv;
-        private Recipe CK;
+        [SerializeField] private Inventory inventory;
+        [SerializeField] private Button button;
         
-        private Recipe Cooking(Inventory.Inventory inventory, Ingredients ingredient)
+
+        private void Start()
         {
-            return CK;
+            
         }
 
-        private void Buying(Ingredients ingredients)
+        private void Update()
         {
-            playerInv.AddItem(ingredients);
+            
+        }
+
+        private void Buying()
+        {
+            
         }
 
         private void Selling()
