@@ -1,14 +1,16 @@
 using Food_Related;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 namespace InventorySystem
 {
-    public class InventoryViewElement
+    public class InventoryViewElement : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI itemName;
         [SerializeField] private TextMeshProUGUI itemQuantity;
-        [SerializeField] private Sprite itemSprite;
+        [SerializeField] private Image itemImage;
 
         private Ingredients currentIngredient;
         
@@ -16,7 +18,7 @@ namespace InventorySystem
         {
             currentIngredient = item;
             itemName.text = item.ingredientName;
-            itemSprite = item.ingredientImage;
+            itemImage.sprite = item.ingredientImage;
         }
     }
 }

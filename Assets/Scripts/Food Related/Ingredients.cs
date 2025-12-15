@@ -8,6 +8,7 @@ namespace Food_Related
     {
         public string ingredientName;
         public Sprite ingredientImage;
+        [Header("Tags")]
         public Origin origin;
         public Source source;
         public CulinaryRole[] culinaryRoles;

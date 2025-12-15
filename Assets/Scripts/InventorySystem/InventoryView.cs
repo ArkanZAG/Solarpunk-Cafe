@@ -24,19 +24,16 @@ namespace InventorySystem
             closeInventoryButton.onClick.AddListener(CloseInventory);
         }
 
-        private void Update()
-        {
-            
-        }
-
         private void OpenInventory()
         {
             inventoryElement.SetActive(true);
+            DisplayInventory();
         }
         
         private void CloseInventory()
         {
             inventoryElement.SetActive(false);
+            ClearInventory();
         }
 
         private void DisplayInventory()
@@ -48,6 +45,15 @@ namespace InventorySystem
                 inventoryViewElement.Show(playerInventory.Ingredients[i]);
                 spawnedElements.Add(obj);
             }
+        }
+
+        private void ClearInventory()
+        {
+            for (int i = 0; i < spawnedElements.Count; i++)
+            {
+                Destroy(spawnedElements[i]);
+            }
+            spawnedElements.Clear();
         }
     }
 }

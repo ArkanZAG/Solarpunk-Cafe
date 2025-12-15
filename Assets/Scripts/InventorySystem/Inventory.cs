@@ -15,9 +15,9 @@ namespace InventorySystem
             ingredients.Add(item);
         }
 
-        public void RemoveItem(Ingredients item)
+        public void RemoveItem(int index)
         {
-            ingredients.Remove(item);
+            ingredients.RemoveAt(index);
         }
     }
 }
