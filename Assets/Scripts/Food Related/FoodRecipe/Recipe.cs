@@ -11,9 +11,7 @@ namespace Food_Related.FoodRecipe
         public string recipeName;
 
         public Ingredients ingredientRequire;
-        public OriginTagRequirement originTagRequire;
-        public SourceTagRequirement sourceTagRequire;
-        public CulinaryRoleTagRequirement[] culinaryRoleTagRequire;
-        public NutritionTagRequirement[] nutritionTagRequire;
+        public CulinaryRole[] culinaryRoleRequire;
+        public Nutrition[] nutritionRequire;
     }
 }
