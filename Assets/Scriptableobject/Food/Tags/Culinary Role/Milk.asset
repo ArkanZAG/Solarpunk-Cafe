@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Kontol
-  m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
-  recipeName: 
-  ingredientRequire: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 3c1b96fd6c92ffa468564e8d920c6c93, type: 3}
+  m_Name: Milk
+  m_EditorClassIdentifier: Assembly-CSharp::Food_Related.Food_Tags.CulinaryRole
+  culinaryRoleName: 

@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Food Recipe
+  m_Name: Mochaccino
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
-  recipeName: 
-  requirementsList:
-  - {fileID: 0}
+  recipeName: Mochaccino
+  ingredientRequire: []
+  culinaryRoleRequire: []
+  nutritionRequire:
+  - {fileID: 11400000, guid: 7048046c46d63434d839f76100d7a4d4, type: 2}
+  - {fileID: 11400000, guid: 2b6b67c062022b641932f97a6eea090b, type: 2}

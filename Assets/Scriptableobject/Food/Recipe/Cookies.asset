@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Food Recipe
+  m_Name: Cookies
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
   recipeName: 
-  requirementsList:
-  - {fileID: 0}
+  ingredientRequire: []
+  culinaryRoleRequire:
+  - {fileID: 11400000, guid: 1fd4a90888a2e7b45b81278361c16c96, type: 2}
+  - {fileID: 11400000, guid: 46c8d4ad779561647a41bad07617413b, type: 2}
+  nutritionRequire:
+  - {fileID: 11400000, guid: 9094b9d1542194a468d30f19365da0de, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874d4188cdb7436da449b6fb64332e8e, type: 3}
+  m_Name: Coffee Beans
+  m_EditorClassIdentifier: Assembly-CSharp::Food_Related.Ingredients
+  ingredientName: CoffeeBeans
+  ingredientImage: {fileID: 0}
+  origin: {fileID: 11400000, guid: 0f70e69cf552ec2458a7906ba85976c8, type: 2}
+  source: {fileID: 11400000, guid: 3159335e361aa5443a8c03613b1811b8, type: 2}
+  culinaryRoles: []
+  nutritions:
+  - {fileID: 11400000, guid: 7048046c46d63434d839f76100d7a4d4, type: 2}

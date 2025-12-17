@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 874d4188cdb7436da449b6fb64332e8e, type: 3}
-  m_Name: Meat
+  m_Name: Wheat Flour
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.Ingredients
-  origin: {fileID: 11400000, guid: 79c9747edd97e8f43b446acf7f7db8ef, type: 2}
-  source: {fileID: 11400000, guid: 3159335e361aa5443a8c03613b1811b8, type: 2}
-  culinaryRoles: []
+  ingredientName: WheatFlour
+  ingredientImage: {fileID: 0}
+  origin: {fileID: 11400000, guid: 0f70e69cf552ec2458a7906ba85976c8, type: 2}
+  source: {fileID: 11400000, guid: 467497ef6a5fb0740b2f3142272e3a75, type: 2}
+  culinaryRoles:
+  - {fileID: 11400000, guid: 1fd4a90888a2e7b45b81278361c16c96, type: 2}
   nutritions:
-  - {fileID: 11400000, guid: 5414d1466bd4a4b4295a2fca6b0f6c64, type: 2}
-  - {fileID: 11400000, guid: 9094b9d1542194a468d30f19365da0de, type: 2}
+  - {fileID: 11400000, guid: 7a19cf7f95930b94aa9dd86f8b5c2e62, type: 2}

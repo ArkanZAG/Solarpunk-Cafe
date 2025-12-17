@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Food Recipe
+  m_Name: Fried Cassava
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
-  recipeName: 
-  requirementsList:
-  - {fileID: 0}
+  recipeName: FriedCassava
+  ingredientRequire:
+  - {fileID: 11400000, guid: 103d254903e08fb4980759bab36a1e67, type: 2}
+  culinaryRoleRequire: []
+  nutritionRequire: []

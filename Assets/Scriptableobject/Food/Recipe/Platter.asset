@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Food Recipe
+  m_Name: Platter
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
-  recipeName: 
-  requirementsList:
+  recipeName: Platter
+  ingredientRequire:
   - {fileID: 0}
+  culinaryRoleRequire:
+  - {fileID: 11400000, guid: 8bb35461b6c165d47b6cb7abe87b7e39, type: 2}
+  nutritionRequire:
+  - {fileID: 11400000, guid: 5414d1466bd4a4b4295a2fca6b0f6c64, type: 2}

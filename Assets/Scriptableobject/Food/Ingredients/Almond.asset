@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874d4188cdb7436da449b6fb64332e8e, type: 3}
+  m_Name: Almond
+  m_EditorClassIdentifier: Assembly-CSharp::Food_Related.Ingredients
+  ingredientName: AlmondMilk
+  ingredientImage: {fileID: 0}
+  origin: {fileID: 11400000, guid: 0f70e69cf552ec2458a7906ba85976c8, type: 2}
+  source: {fileID: 11400000, guid: 467497ef6a5fb0740b2f3142272e3a75, type: 2}
+  culinaryRoles:
+  - {fileID: 11400000, guid: 46c8d4ad779561647a41bad07617413b, type: 2}
+  - {fileID: 11400000, guid: 1fd4a90888a2e7b45b81278361c16c96, type: 2}
+  nutritions:
+  - {fileID: 11400000, guid: 9094b9d1542194a468d30f19365da0de, type: 2}

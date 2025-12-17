@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89415e112db94bb98a9d87dc739c3c72, type: 3}
-  m_Name: Food Recipe
+  m_Name: Fritters
   m_EditorClassIdentifier: Assembly-CSharp::Food_Related.FoodRecipe.Recipe
-  recipeName: 
-  requirementsList:
-  - {fileID: 0}
+  recipeName: Fritters
+  ingredientRequire:
+  - {fileID: 11400000, guid: 2bb8e59c9003fa74390fe0ba71b63226, type: 2}
+  culinaryRoleRequire: []
+  nutritionRequire:
+  - {fileID: 11400000, guid: 90c30d6c4fbad80419a725d4806094a9, type: 2}
