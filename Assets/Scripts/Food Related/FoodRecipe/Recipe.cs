@@ -10,8 +10,18 @@ namespace Food_Related.FoodRecipe
     {
         public string recipeName;
 
-        public Ingredients[] ingredientRequire;
-        public CulinaryRole[] culinaryRoleRequire;
-        public Nutrition[] nutritionRequire;
+        public List<Requirement> requirements;
+
+        public bool CanCook(List<Ingredients> ingredient)
+        {
+            foreach (var req in requirements)
+            {
+                if (!req.IsAvailable(ingredient))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
