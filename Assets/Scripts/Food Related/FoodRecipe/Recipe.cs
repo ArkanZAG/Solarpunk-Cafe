@@ -10,7 +10,7 @@ namespace Food_Related.FoodRecipe
     {
         public string recipeName;
 
-        public Ingredients ingredientRequire;
+        public Ingredients[] ingredientRequire;
         public CulinaryRole[] culinaryRoleRequire;
         public Nutrition[] nutritionRequire;
     }
