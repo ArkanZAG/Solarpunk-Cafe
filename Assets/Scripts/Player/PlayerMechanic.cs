@@ -1,4 +1,5 @@
 using System;
+using Food_Related;
 using Food_Related.FoodRecipe;
 using InventorySystem;
 using UnityEngine;
@@ -22,12 +23,17 @@ namespace Player
             
         }
 
-        private void Buying()
+        private void Buying(Ingredients item)
         {
-            
+            inventory.AddItem(item);
         }
 
-        private void Selling()
+        private void Selling(int index)
+        {
+            inventory.RemoveItem(index);
+        }
+
+        private void Serving(Ingredients item, Recipe recipe)
         {
             
         }
