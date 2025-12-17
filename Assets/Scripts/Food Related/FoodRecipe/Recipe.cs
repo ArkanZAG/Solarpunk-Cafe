@@ -9,10 +9,11 @@ namespace Food_Related.FoodRecipe
     public class Recipe : ScriptableObject
     {
         public string recipeName;
-        
-        public OriginTagRequirement originTagRequirement;
-        public SourceTagRequirement sourceTagRequirement;
-        public CulinaryRoleTagRequirement[] culinaryRoleTagRequirement;
-        public NutritionTagRequirement[] nutritionTagRequirement;
+
+        public Ingredients ingredientRequire;
+        public OriginTagRequirement originTagRequire;
+        public SourceTagRequirement sourceTagRequire;
+        public CulinaryRoleTagRequirement[] culinaryRoleTagRequire;
+        public NutritionTagRequirement[] nutritionTagRequire;
     }
 }
