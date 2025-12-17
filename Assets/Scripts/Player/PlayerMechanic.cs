@@ -37,5 +37,10 @@ namespace Player
         {
             
         }
+
+        private void CheckCanServe()
+        {
+            
+        }
     }
 }

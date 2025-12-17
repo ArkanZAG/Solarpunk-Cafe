@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using Food_Related.Food_Tags;
+using Food_Related.TagRequirement;
 using UnityEngine;
 
 namespace Food_Related.FoodRecipe
@@ -7,6 +9,10 @@ namespace Food_Related.FoodRecipe
     public class Recipe : ScriptableObject
     {
         public string recipeName;
-        public List<Ingredients> requirementsList;
+        
+        public OriginTagRequirement originTagRequirement;
+        public SourceTagRequirement sourceTagRequirement;
+        public CulinaryRoleTagRequirement[] culinaryRoleTagRequirement;
+        public NutritionTagRequirement[] nutritionTagRequirement;
     }
 }
